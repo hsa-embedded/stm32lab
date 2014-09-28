@@ -1,0 +1,15 @@
+*~
+*.bin
+*.elf
+*.lst
+*.o
+*.swp
+*.db
+*.ctmp
+*.db-journal
+*.csync_journal
+
+# Eclipse files to ignore
+.cproject
+.project
+.settings
