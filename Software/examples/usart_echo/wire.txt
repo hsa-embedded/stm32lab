@@ -1,0 +1,6 @@
+USART Wiring:
+
+PA9  -> RX (USB-to-Serial)
+PA10 -> TX (USB-to-Serial)
+
+see media/wire.jpg

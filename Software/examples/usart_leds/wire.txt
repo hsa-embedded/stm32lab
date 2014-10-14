@@ -1,0 +1,12 @@
+USART Wiring:
+
+PA9  -> RX (USB-to-Serial)
+PA10 -> TX (USB-to-Serial)
+
+LED Wiring:
+PC0 -> LED1
+PC1 -> LED2
+PC2 -> LED3
+PC3 -> LED4
+PC8 -> already wired to blue LED on STM Board
+PC9 -> already wired to green LED ton STM Board
