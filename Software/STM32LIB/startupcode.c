@@ -80,6 +80,7 @@ void RESET_Handler(void)
     RCC_CR |= HSE_ON;
 
     while((RCC_CR & HSE_RDY) == 0)
+    	;
 
 
 

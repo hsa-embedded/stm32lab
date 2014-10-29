@@ -14,7 +14,7 @@ CFLAGS  =  -I./ -c -fno-common -g  -mcpu=cortex-m3 -mthumb -std=c99 -Wall
 CFLAGS += -mlittle-endian # need it? little-endian ist default !?
 CFLAGS += -I/opt/stm32lab/CMSIS/Include
 CFLAGS += -D__CHECK_DEVICE_DEFINES
-CFLAGS += -DF_CPU=$(F_CPU)
+CFLAGS += -D'F_CPU=$(F_CPU)'
 
 
 #CFLAGS += --specs=nano.specs -lc -lnosys #TODO Linker ? 

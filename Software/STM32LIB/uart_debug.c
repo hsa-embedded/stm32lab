@@ -22,7 +22,6 @@
 
 void uart_debug_init(void)
 {
-
     /*
      *  Enable USART3 in RCC_APB1ENR [USART3]
      *  Chapter 6.3.8 on page 91
