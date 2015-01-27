@@ -18,7 +18,7 @@ Pinout     STM32VLDISCOVERY           hsa-pyboard  STM32LAB
   12     PC1
   13     PC2
   14     PC3
-  15     PA0      User
+  15     PA0      User 
                   Button
   16     PA1      
   17     PA2
@@ -65,7 +65,8 @@ Pinout     STM32VLDISCOVERY           hsa-pyboard  STM32LAB
   16     PC12
   17     PD2 
   18     PB3      JTAG JTDO
-  19     PB4      JTAG NJTRST
+  19     PB4      JTAG 
+                  NJTRST
   20     PB5      
   21     PB6
   22     PB7
