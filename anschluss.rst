@@ -44,32 +44,35 @@ Pinout     STM32VLDISCOVERY           hsa-pyboard  STM32LAB
        name                  name
 ====== ========= =========== ========= =========== ===========
   1      GND                   GND       
-  2      PC6
+  2      PC6      
   3      PC7
-  4      PC8
-  5      PC9
-  6      PA8
-  7      PA9
+  4      PC8      LED_BL
+  5      PC9      LED_GR
+  6      PA8      MC0
+  7      PA9      
   8      PA10
   9      PA11
   10     PA12
-  11     PA13                            
-  12     PA14
-  13     PA15
+  11     PA13     JTAG
+                  JTMS
+                  SWDIO                       
+  12     PA14     JTAG
+                  JTCK/SWCLK                       
+  13     PA15     JTAG
   14     PC10
-  15                      
-  16           
-  17     
-  18     
-  19     
-  20     
-  21     
-  22     
-  23     
-  24     
-  25     
-  26     
-  27     
+  15     PC11                     
+  16     PC12
+  17     PD2
+  18     PB3
+  19     PB4
+  20     PB5
+  21     PB6
+  22     PB7
+  23     BOOT0
+  24     PB8
+  25     PB9
+  26     EXT_5V
+  27     NC
   28     GND
 ====== ========= =========== ========= =========== ===========
 
