@@ -48,7 +48,7 @@ Pinout     STM32VLDISCOVERY           hsa-pyboard  STM32LAB
   3      PC7
   4      PC8      LED_BL
   5      PC9      LED_GR
-  6      PA8      MC0
+  6      PA8      MC0         
   7      PA9      
   8      PA10
   9      PA11
@@ -57,22 +57,36 @@ Pinout     STM32VLDISCOVERY           hsa-pyboard  STM32LAB
                   JTMS
                   SWDIO                       
   12     PA14     JTAG
-                  JTCK/SWCLK                       
+                  JTCK SWCLK                       
   13     PA15     JTAG
-  14     PC10
+  14     PC10     
   15     PC11                     
   16     PC12
-  17     PD2
-  18     PB3
-  19     PB4
-  20     PB5
+  17     PD2 
+  18     PB3      JTAG JTDO
+  19     PB4      JTAG NJTRST
+  20     PB5      
   21     PB6
   22     PB7
-  23     BOOT0
-  24     PB8
+  23     BOOT0    BOOT0
+  24     PB8      
   25     PB9
-  26     EXT_5V
+  26     EXT_5V   
   27     NC
   28     GND
 ====== ========= =========== ========= =========== ===========
 
+
+====== ========= =========== ========= =========== ===========
+Pinout     STM32VLDISCOVERY           hsa-pyboard  STM32LAB
+------ --------------------- --------------------- -----------
+ P3    board pin component   board pin component   component
+       name                  name
+====== ========= =========== ========= =========== ===========
+  1      PB10                 PB10
+  2      PB11                 PB11      
+  3      PB12                 PB12
+  4      PB13                 PB13
+  5      PB14                 PB14
+  6      PB15                 PB15
+====== ========= =========== ========= =========== ===========
