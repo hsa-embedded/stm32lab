@@ -57,7 +57,8 @@ Pinout     STM32VLDISCOVERY           hsa-pyboard  STM32LAB
                   JTMS
                   SWDIO                       
   12     PA14     JTAG
-                  JTCK SWCLK                       
+                  JTCK 
+                  SWCLK                       
   13     PA15     JTAG
   14     PC10     
   15     PC11                     
